@@ -1,0 +1,25 @@
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.6rem 0;
+  &__img {
+    width: 30%;
+    object-fit: cover;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  &__content {
+    flex: 1;
+    padding: 0.5rem;
+    &-title {
+      font-size: 1.2rem;
+      color: yellow;
+    }
+    &-popularity,
+    &-date {
+      color: white;
+      font-size: 0.8rem;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.cart-list {
+  position: absolute;
+  right: 20px;
+  top: 56px;
+  z-index: 2;
+  width: 30%;
+  background-color: gray;
+  border-radius: 10px;
+  min-height: 500px;
+  max-height: 700px;
+  overflow: scroll;
+  padding: 0 2rem 1rem;
+  .cart-title {
+    position: sticky;
+    top: 0;
+    background-color: gray;
+    padding-top: 1rem;
+  }
+  &__empty {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -40%);
+  }
+}

@@ -1,0 +1,43 @@
+.movie {
+  padding: 70px 5%;
+  &-detail {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__poster {
+      border: 1px solid rgb(133, 133, 133);
+      border-radius: 20px;
+      overflow: hidden;
+      flex: 1;
+    }
+    &__content {
+      flex: 2;
+      margin-left: 3rem;
+      .title {
+        font-size: 2rem;
+        line-height: 3.5rem;
+        color: yellow;
+      }
+      .overview,
+      .popularity,
+      .release {
+        line-height: 1.6rem;
+        margin: 1rem 0;
+      }
+      .list-actor {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        overflow: scroll;
+        margin-bottom: 2rem;
+      }
+    }
+  }
+  &-trailer {
+    padding: 3rem 0;
+    .frame {
+      border: 1px solid white;
+    }
+  }
+}

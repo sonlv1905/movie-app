@@ -1,0 +1,14 @@
+.actor-card__item {
+  width: 20%;
+  margin: 0.5rem;
+  &-img {
+    border-radius: 5%;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  &-name {
+    font-size: 0.9rem;
+    text-align: center;
+    line-height: 1.4rem;
+  }
+}
